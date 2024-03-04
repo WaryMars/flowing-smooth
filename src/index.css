@@ -1,0 +1,160 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@font-face {
+  font-family: 'Yavome';
+  src: url(assets/fonts/yavome.regular.otf);
+}
+
+@font-face {
+  font-family: 'basteleur';
+  src: url(assets/fonts/basteleur.otf);
+}
+
+@font-face {
+  font-family: 'BlueOcean-YzBDa';
+  src: url(assets/fonts/BlueOcean-YzBDa.otf);
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Basteleur-Moonlight'; */
+  background: none;
+  background-color: none;
+  background-image: none;
+  background-position: none;
+  background-clip: none;
+  backdrop-filter: none;
+}
+
+section {
+  background-color: transparent;
+  background: none;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  background-color: transparent;
+  font-family: 'Basteleur', 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h1:hover{
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.4);
+  /* background-color: #000000cc; */
+}
+
+#imgCategory{
+  /* border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%; */
+  border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;                  
+}
+
+/* .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+  transition: 100ms;
+}
+
+.checkmark {
+  top: 0;
+  left: 0;
+  height: 2em;
+  width: 2em;
+  transition: 100ms;
+  animation: dislike_effect 400ms ease;
+}
+
+.container input:checked ~ .checkmark path {
+  fill: #FF5353;
+  stroke-width: 0;
+}
+
+.container input:checked ~ .checkmark {
+  animation: like_effect 400ms ease;
+}
+
+.container:hover {
+  transform: scale(1.1);
+}
+
+@keyframes like_effect {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes dislike_effect {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+} */
